@@ -49,49 +49,11 @@ LOOP WHILE startWord !== endWord
         IF difference === 1 && newWord matched a word in dictionary THEN
             count++
             startWord = newWord
-        IF startword !== endWord THEN
-            PRINT "You created the word " + startWord
-            PRINT "This was try number: " + count
-        ELSE IF startWord === endWord THEN
-            PRINT "You made it in " + count + " tries."
+            IF startword !== endWord THEN
+                PRINT "You created the word " + startWord
+                PRINT "This was try number: " + count
+            ELSE IF startWord === endWord THEN
+                PRINT "You made it in " + count + " tries."
 ENDLOOP
 END
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// play();
-
-// function play()
-//     SET variabel ordbok = [FOUR, FOUL, FOOL, FOOT, FORT, FORE, FIRE, FIVE]; // Innehåller ALLA ord i det engelska språket
-//     SET variabel startOrd till "FOUR";
-//     SET variabel slutordOrd till "FIVE";
-
-
-// end function
-
-// function isOneLetterApart(wordOne, wordTwo)
-//     SET variabel diffCount till 0;
-
-//     // Här behöver du skriva koden för din funktion
-
-//     return diffCount === 1; // returnerar sant om endast en bokstav ändrats, annars falskt
-// end function
